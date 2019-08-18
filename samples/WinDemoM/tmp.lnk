@@ -1,0 +1,9 @@
+/sys=C
+/stack=100000
+/name=WinDemoM.exe
+WinDemoM.obj
+S:\projects\xds-ide\sdks\XDS-x86\lib\x86\xstart.lib
+S:\projects\xds-ide\sdks\XDS-x86\lib\x86\libxdsmt.lib
+S:\projects\xds-ide\sdks\XDS-x86\lib\x86\libtsmt.lib
+S:\projects\xds-ide\sdks\XDS-x86\lib\x86\import32.lib
+

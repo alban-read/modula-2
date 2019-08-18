@@ -1,0 +1,12 @@
+sys nt
+op case
+op stack=100000
+runtime windows
+lib kernel32.lib
+lib user32.lib
+lib gdi32.lib
+lib comdlg32.lib
+file Generic.obj
+name 'Generic.exe'
+lib 'S:\projects\xds-ide\sdks\XDS-x86\lib\C\libxds.lib'
+lib 'S:\projects\xds-ide\sdks\XDS-x86\lib\C\libts.lib'

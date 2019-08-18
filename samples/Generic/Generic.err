@@ -1,0 +1,26 @@
+Generic.c(52): Error! E1011: Symbol 'OPENFILENAME' has not been declared
+Generic.c(52): Error! E1009: Expecting ';' but found 'of'
+Generic.c(52): Error! E1011: Symbol 'of' has not been declared
+Generic.c(53): Error! E1077: Missing '}'
+Generic.c(55): Error! E1009: Expecting ')' but found '('
+Generic.c(55): Error! E1094: Function cannot return a function
+Generic.c(55): Error! E1062: Inconsistent return type for function 'memset'
+Generic.c(55): Note! I2003: source conversion type is 'int (void)(void)'
+Generic.c(55): Note! I2004: target conversion type is 'void *'
+Generic.c(55): Note! I2002: 'memset' defined in: S:\WATCOM\h\string.h(128)
+Generic.c(55): Error! E1071: Type of parameter 1 does not agree with previous definition
+Generic.c(55): Note! I2003: source conversion type is 'char *'
+Generic.c(55): Note! I2004: target conversion type is 'void *'
+Generic.c(55): Error! E1151: Parameter count does not agree with previous definition
+Generic.c(55): Error! E1044: Variable 'memset' has incomplete type
+Generic.c(55): Error! E1022: Missing or misspelled data type near 'filter'
+Generic.c(55): Error! E1024: Declared symbol 'filter' is not in parameter list
+Generic.c(55): Error! E1009: Expecting ')' but found 'char'
+Generic.c(55): Error! E1026: Invalid declarator
+Generic.c(55): Error! E1009: Expecting ',' but found ')'
+Generic.c(55): Error! E1026: Invalid declarator
+Generic.c(55): Error! E1009: Expecting ',' but found '0U'
+Generic.c(55): Error! E1026: Invalid declarator
+Generic.c(55): Error! E1026: Invalid declarator
+Generic.c(55): Error! E1009: Expecting ',' but found '1001UL'
+Generic.c(55): Error! E1147: Too many errors: compilation aborted
