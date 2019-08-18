@@ -1,4 +1,5 @@
 # modula-2
+
 modula-2 by Excelsior/xtech.
 
 
@@ -12,27 +13,36 @@ Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windo
 XDS strings are ascii not unicode; which helps explain some very small exe sizes.
 
 The compilers generate 32bit code; either 386-pentium-pro native or via C translation.
+
 These are originally from the 1990s an era when 16MB was a lot of memory for a PC.
 
-I suspect on 64bit Windows 10; you might get as much as 4GB ram per process; if you update the exe.
+I suspect on 64bit Windows 10; you might be able to get as much as 4GB ram per process; if you update the exe.
 editbin /largeaddressaware my.exe 
 
-And also update the heap limit parameters set to a max of 1128MB in the runtime.
+And also update the heap limit parameters set to a max of 1128MB in the runtime objects.
 
 XDS uses the intel floating point unit; not later SSE instructions etc.
 
 NASM is used to compile the ASM for the runtimes.
 
-I found that openwatcom version 2 does not work; earlier versions might work.
+I found that modern openwatcom C version 2 does not work; earlier versions might work.
 
 The design of the XDS compilers separates the front end languages (oberon-2 and modula-2) from the backends
 
 (x86 and ansi C) there were many backends available commercially; back in the day.  
 
+The XDS compilers are written in modula-2 oberon-2 and x86 asm.
+
+The versions of the source languages are modula-2 ISO10514 and oberon-2.
+
+modula-2 is imperative procedural modular structured; oberon is similar; more minimal with simple object orientation extensions.
+
+The XDS compilers will compile a project that contains modules written in both languages.
+
 
 ----
 
-Excelsior kindly open sourced their famous modula-2/oberon xds compilers.
+Excelsior kindly open sourced their famous modula-2 and oberon-2 xds compilers.
 
 The XDS compilers have been available as binary packages free of charge for a number of years.
 
