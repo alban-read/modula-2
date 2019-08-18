@@ -17,7 +17,8 @@ The compilers generate 32bit code; either 386-pentium-pro native or via C transl
 These are originally from the 1990s an era when 16MB was a lot of memory for a PC.
 
 I suspect on 64bit Windows 10; you might be able to get as much as 4GB ram per process; if you update the exe.
-editbin /largeaddressaware my.exe 
+
+e.g. editbin /largeaddressaware my.exe 
 
 And also update the heap limit parameters set to a max of 1128MB in the runtime objects.
 
