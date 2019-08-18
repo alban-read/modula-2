@@ -10,6 +10,11 @@ XDS compiles and run on the latest versions of Windows 10.
 
 Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windows 8.1 SDK.
 
+# How to Compile it - see wiki 
+
+https://github.com/alban-read/modula-2/wiki
+
+
 XDS strings are ascii not unicode; which helps explain some very small exe sizes.
 
 The compilers generate 32bit code; either 386-pentium-pro native or via C translation.
