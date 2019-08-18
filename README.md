@@ -1,6 +1,8 @@
 # modula-2 oberon-2 
 
-The compilers here were created by Excelsior/xtech in Russia.
+The compilers found here were created by Excelsior in Russia these are Copyright 1991-2019 Excelsior, LLC.
+
+I plan to use them for some projects; and will track any changes here.
 
 ----
 Tips
