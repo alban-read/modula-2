@@ -31,11 +31,11 @@ The design of the XDS compilers separates the front end languages (oberon-2 and 
 
 (x86 and ansi C) there were many backends available commercially; back in the day.  
 
-The XDS compilers are written in modula-2 oberon-2 and x86 asm.
+The XDS compilers are written in modula-2, oberon-2, C and x86 asm.
 
 The versions of the source languages are modula-2 ISO10514 and oberon-2.
 
-modula-2 is imperative procedural modular structured; oberon is similar; more minimal with simple object orientation extensions.
+modula-2 is an imperative procedural modular structured language in the pascal family; oberon is similar, smaller; even more minimal with simple object orientation extensions.
 
 The XDS compilers will compile a project that contains modules written in both languages.
 
@@ -45,6 +45,7 @@ The XDS compilers will compile a project that contains modules written in both l
 Excelsior kindly open sourced their famous modula-2 and oberon-2 xds compilers.
 
 The XDS compilers have been available as binary packages free of charge for a number of years.
+
 
 These artefacts were picked up from 
 
