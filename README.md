@@ -1,7 +1,6 @@
-# modula-2
+# modula-2 oberon-2 
 
-modula-2 by Excelsior/xtech.
-
+The compilers here were created by Excelsior/xtech in Russia.
 
 ----
 Tips
@@ -48,7 +47,7 @@ The XDS compilers will compile a project that contains modules written in both l
 
 ----
 
-Excelsior kindly open sourced their famous modula-2 and oberon-2 xds compilers.
+Excelsior kindly open sourced their famous modula-2 and oberon-2 XDS compilers.
 
 The XDS compilers have been available as binary packages free of charge for a number of years.
 
@@ -65,11 +64,14 @@ The components in here with source code are open sourced by Exelsior (see links 
 
 The components without source code include the older IDE were provided free of charge by Excelsior.
  
-The 2.6 version of xds comes included as the SDK with the modern Java Eclipse based IDE.
+The 2.6 version of XDS comes included as the SDK with the release of the modern Java Eclipse based IDE.
 
 
 The open source version of XDS compilers/debuggers/linkers/resource builder appear to be the 2.52 version.
 
+I think that modula-2 and oberon-2 are better languages than many that came before them; and better than many that came after them.
+
+Certainly they are simpler and more readable than many other computer languages.
 
 
 
