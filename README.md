@@ -59,7 +59,8 @@ The components in here with source code are open sourced by Exelsior (see links 
 
 The components without source code include the older IDE were provided free of charge by Excelsior.
  
-The 2.6 version of xds comes included as the SDK with the nice new Java Exclipse based IDE.
+The 2.6 version of xds comes included as the SDK with the modern Java Eclipse based IDE.
+
 
 The open source version of XDS compilers/debuggers/linkers/resource builder appear to be the 2.52 version.
 
