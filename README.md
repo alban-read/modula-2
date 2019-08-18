@@ -39,7 +39,7 @@ I found that modern openwatcom C version 2 does not work; earlier versions might
 
 The design of the XDS compilers separates the front end languages (oberon-2 and modula-2) from the backends
 
-(x86 and ansi C) there were many backends available commercially; back in the day.  
+Backends (included are x86 and ansi C) there were many backends available commercially (x86, m68k, SPARC, PowerPC and VAX); back in the day.  
 
 The XDS compilers are written in modula-2, oberon-2, C and x86 asm.
 
