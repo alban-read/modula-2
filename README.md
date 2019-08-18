@@ -78,6 +78,11 @@ I think that modula-2 and oberon-2 are better languages than many that came befo
 
 Certainly they are simpler and more readable than many other computer languages.
 
+-------
+
+Excelsior went on from XDS to create the award winning Jet Java AOT compiler; which I used a few times; earlier they created their own operating system for a Russian mini-computer system. 
+
+http://www.kronos.ru
 
 
 
