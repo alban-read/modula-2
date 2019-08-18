@@ -2,6 +2,8 @@
 
 The compilers found here were created by Excelsior in Russia these are Copyright 1991-2019 Excelsior, LLC.
 
+XDS is an interesting framework to be able to study: http://oberon2005.oberoncore.ru/paper/vm1999.pdf
+
 I plan to use them for some projects; and will track any changes here.
 
 ----
