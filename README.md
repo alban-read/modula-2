@@ -13,6 +13,9 @@ Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windo
 
 https://github.com/alban-read/modula-2/wiki
 
+Features
+
+These are optimizing compilers
 
 XDS strings are ascii not unicode; which helps explain some very small exe sizes.
 
