@@ -9,23 +9,34 @@ XDS compiles and run on Windows 10 with the MSVC compiler; either VS2015, or VS2
 XDS strings are ascii not unicode; which helps explain some very small exe sizes.
 The compilers generate 32bit code; either 386-pentium-pro native or via C translation.
 These are originally from the 1990s an era when 16MB was a lot of memory for a PC.
-Use the intel floating point unit; not later SSE instructions etc.
+
+I suspect on 64bit Windows 10; you might get as much as 4GB ram per process; if you update the exe.
+editbin /largeaddressaware my.exe 
+And also update the heap limit parameters set to a max of 1128MB in the runtime.
+
+XDS uses the intel floating point unit; not later SSE instructions etc.
 NASM is used to compile the ASM for the runtimes.
 I found that openwatcom version 2 does not work; earlier versions might work.
+
+The design of the XDS compilers separates the front end languages (oberon-2 and modula-2) from the backends (x86 and ansi C) there were many backends available commercially; back in the day.  
 
 ----
 
 Excelsior kindly open sourced their famous modula-2/oberon xds compilers.
+The XDS compilers have been available as binary packages free of charge for a number of years.
 
-These were picked up from 
+These artefacts were picked up from 
+
 https://github.com/excelsior-oss/xds
+https://github.com/excelsior-oss/xds-ide
 
-The components in here with source code are open sourced by Exelsior.
-The components without source code include the older IDE are provided free of charge by Excelsior.
-Nothing new here; some ideas in progress.
+And possibly earlier binary archives from the Excelsior site back in the day.
 
-The 2.6 version of xds comes with the nice new Java Exclipse based IDE.
-The open source version appears to be the 2.52 version.
+The components in here with source code are open sourced by Exelsior (see links above.)
+The components without source code include the older IDE were provided free of charge by Excelsior.
+ 
+The 2.6 version of xds comes included as the SDK with the nice new Java Exclipse based IDE.
+The open source version of XDS compilers/debuggers/linkers/resource builder appear to be the 2.52 version.
 
 
 
