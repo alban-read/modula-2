@@ -1,8 +1,8 @@
 # modula-2 oberon-2 
 
-The compilers found here were created by Excelsior in Russia these are Copyright 1991-2019 Excelsior, LLC.
+These were created by Excelsior in Russia these are Copyright 1991-2019 Excelsior, LLC.
 
-XDS is an interesting framework to be able to study: http://oberon2005.oberoncore.ru/paper/vm1999.pdf
+If you like compilers XDS is an interesting framework: http://oberon2005.oberoncore.ru/paper/vm1999.pdf
 
 I plan to use them for some projects; and will track any changes here.
 
@@ -82,7 +82,7 @@ Certainly they are simpler and more readable than many other computer languages.
 
 -------
 
-Excelsior went on from XDS to create the award winning Jet Java AOT compiler; which I used a few times; earlier they created their own operating system for a Russian mini-computer system. 
+Excelsior went on from XDS to create the award winning Jet Java AOT compiler; which I have used a few times to compile Jars; earlier they created their own operating system for a Russian mini-computer system. 
 
 http://www.kronos.ru
 
