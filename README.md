@@ -23,7 +23,7 @@ These are optimizing compilers
 
 XDS strings are ascii not unicode; which helps explain some very small exe sizes.
 
-The compilers generate 32bit code; either 386-pentium-pro native or via C translation.
+The compilers generate 32bit code; either (386; 486; pentium; pentium-pro) native or via C translation.
 
 These are originally from the 1990s an era when 16MB was a lot of memory for a PC.
 
