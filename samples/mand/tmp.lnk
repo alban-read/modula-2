@@ -1,10 +1,9 @@
-/sys=W
+/sys=C
 /debug
-/stack=100000
+/stack=50000000
 /name=MandSet.exe
 MandSet.obj
-S:\projects\xds-ide\sdks\XDS-x86\lib\x86\xstart.lib
-S:\projects\xds-ide\sdks\XDS-x86\lib\x86\libxds.lib
-S:\projects\xds-ide\sdks\XDS-x86\lib\x86\libts.lib
-S:\projects\xds-ide\sdks\XDS-x86\lib\x86\import32.lib
+S:\projects\xds\XDS\lib\x86\xstart.lib
+S:\projects\xds\XDS\lib\x86\libxds.lib
+S:\projects\xds\XDS\lib\x86\import32.lib
 

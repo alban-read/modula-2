@@ -1,0 +1,22 @@
+S:\projects\xds\XDS\bin\xd.exe   mandset.exe
+#RTS: unhandled exception #15: ASSERT(FALSE,15) at line 259 of Console.mod
+000071B2  00000000  S:\projects\xds\XDS\bin\xd.exe
+0003B397  00000000  S:\projects\xds\XDS\bin\xd.exe
+0006F242  00000000  S:\projects\xds\XDS\bin\xd.exe
+0003B1ED  00000000  S:\projects\xds\XDS\bin\xd.exe
+0003B212  00000000  S:\projects\xds\XDS\bin\xd.exe
+0004FF3C  00000000  S:\projects\xds\XDS\bin\xd.exe
+00019D71  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00017571  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00017CA7  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00017ECE  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00019D71  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00017571  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00017CA7  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+00017ECE  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+0000670D  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+0000C71C  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+0000561C  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+0000C667  00000000  S:\projects\xds\XDS\bin\XDS26.DLL
+0009F754  00000000  S:\projects\xds\XDS\bin\xd.exe
+0009F80E  00000000  S:\projects\xds\XDS\bin\xd.exe
