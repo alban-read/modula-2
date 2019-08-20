@@ -32,7 +32,7 @@ In XDS the strings are not unicode; which helps explain some very small exe size
 
 The native compiler generates 32bit code; (for 386; 486; pentium or pentium-pro); the ansi C compiler; compiles to C and uses a system C compiler to create the exe file.
 
-Low memory usage: these are originally from the 1990s an era when powerful PC workstations had 16Mb of RAM. 
+Low and controlled memory usage: these are originally from the 1990s an era when powerful PC workstations had 16Mb of RAM. 
 
 I suspect on 64bit Windows 10; you might be able to get as much as 4GB ram per 32bit process; if you update the exe.
 
@@ -71,11 +71,13 @@ Excelsior recently (in 2019) open sourced their famous modula-2 and oberon-2 XDS
 The XDS compilers have been available as binary packages free of charge for a number of years.
 
 
-Thes artefacts here were picked up from:- 
+----
 
-https://github.com/excelsior-oss/xds
+These artefacts here were picked up from:- 
 
-https://github.com/excelsior-oss/xds-ide
+* https://github.com/excelsior-oss/xds
+
+* https://github.com/excelsior-oss/xds-ide
 
 And earlier binary archives from the Excelsior site back in the day.
 
@@ -99,10 +101,13 @@ Excelsior went on from modula-2 and oberon-2 to create the award winning Jet Jav
 
 Jet was a compiler from Java Bytecode to executable code; I used the standard edition a few times to package java apps.
 
-The same team create the Excelsior operating system for an early (1980s) Russian mini-computer system designed to run modula-2; similar in concept to the Swiss Lilith; but 32bit and using Russian hardware technology; rather than American.
+The same team created the Excelsior operating system for an early (1980s) Russian mini-computer system designed to run modula-2; similar in concept to the Swiss Lilith; but 32bit and using Russian hardware technology; rather than American.
 
 http://www.kronos.ru
 
- 
+
+---
+
+It is interesting to speculate how fast a kronos computer might run now; if the same design was implemented using modern processes.
 
 
