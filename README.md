@@ -1,37 +1,45 @@
-# modula-2 oberon-2 
+# modula-2 oberon-2 XDS compilers
 
-These were created by Excelsior in Russia these are Copyright 1991-2019 Excelsior, LLC.
+These XDS compilers were created by Excelsior in Russia: XDS is Copyright 1991-2019 Excelsior, LLC.
 
-If you like compilers XDS is an interesting framework: http://oberon2005.oberoncore.ru/paper/vm1999.pdf
+If you like the modula-2 and oberon-2 languages; these are useful tools.
+
+I think that modula-2 and oberon-2 are better languages than many that came before them; and better than many that came after them.
+
+They are simpler and more readable than many other popular computer languages; and the compilers support multithreading allowing more than one processor to be used; which seems essential now that every PC (and even phones) have several CPUs (2019.)
 
 I plan to use them for some projects; and will track any changes here.
 
+If you like compilers XDS is an interesting framework: http://oberon2005.oberoncore.ru/paper/vm1999.pdf
+
+
 ----
-Tips
+## Compatability
 
 XDS compiles and run on the latest versions of Windows 10.
 
 Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windows 8.1 SDK.
 
-# How to Compile it - see wiki 
+# How to Compile these - see wiki 
 
 https://github.com/alban-read/modula-2/wiki
 
-Features
+## XDS Features
 
 These are optimizing compilers
 
-XDS strings are ascii not unicode; which helps explain some very small exe sizes.
+In XDS the strings are not unicode; which helps explain some very small exe sizes.
 
-The compilers generate 32bit code; either (386; 486; pentium; pentium-pro) native or via C translation.
+The native compiler generates 32bit code; (for 386; 486; pentium or pentium-pro); the ansi C compiler; compiles to C and uses a system C compiler to create the exe file.
 
-These are originally from the 1990s an era when 16MB was a lot of memory for a PC.
+Low memory usage: these are originally from the 1990s an era when powerful PC workstations had 16Mb of RAM. 
 
-I suspect on 64bit Windows 10; you might be able to get as much as 4GB ram per process; if you update the exe.
+I suspect on 64bit Windows 10; you might be able to get as much as 4GB ram per 32bit process; if you update the exe.
 
-e.g. editbin /largeaddressaware my.exe 
+e.g. to set the large address mode:- editbin /largeaddressaware my.exe 
 
-And also update the heap limit parameters set to a max of 1128MB in the runtime objects.
+You may also need update the heap limit parameters set to a max of 1128MB in the runtime objects.
+
 
 XDS uses the intel floating point unit; not later SSE instructions etc.
 
@@ -39,53 +47,62 @@ NASM is used to compile the ASM for the runtimes.
 
 I found that modern openwatcom C version 2 does not work; earlier versions might work.
 
-The design of the XDS compilers separates the front end languages (oberon-2 and modula-2) from the backends
+The design of the XDS compilers separates the front end (oberon-2 and modula-2) from the backend code generator.
 
-Backends (included are x86 and ansi C) there were many backends available commercially (x86, m68k, SPARC, PowerPC and VAX); back in the day.  
+A common front end; supports either modula-2 or oberon-2 depending on the language mode and configuration settings.
 
-The XDS compilers are written in modula-2, oberon-2, C and x86 asm.
+Different Backends (included are x86 and ansi C) generate the compiled code.
+
+There were many backends available commercially (x86, m68k, SPARC, PowerPC and VAX); in the past.
+
+The XDS compilers and runtimes are written in a mix modula-2, oberon-2, C and x86 asm.
 
 The versions of the source languages are modula-2 ISO10514 and oberon-2.
 
-modula-2 is an imperative procedural modular structured language in the pascal family; oberon is similar, smaller; even more minimal with simple object orientation extensions.
+modula-2 is an imperative procedural modular structured (safe) language in the pascal family; oberon is similar, smaller; even more minimal with simple object orientation extensions.
 
 The XDS compilers will compile a project that contains modules written in both languages.
 
 
 ----
 
-Excelsior kindly open sourced their famous modula-2 and oberon-2 XDS compilers.
+Excelsior recently (in 2019) open sourced their famous modula-2 and oberon-2 XDS compilers under the apache license.
 
 The XDS compilers have been available as binary packages free of charge for a number of years.
 
 
-These artefacts were picked up from 
+Thes artefacts here were picked up from:- 
 
 https://github.com/excelsior-oss/xds
 
 https://github.com/excelsior-oss/xds-ide
 
-And possibly earlier binary archives from the Excelsior site back in the day.
+And earlier binary archives from the Excelsior site back in the day.
 
 The components in here with source code are open sourced by Exelsior (see links above.)
 
-The components without source code include the older IDE were provided free of charge by Excelsior.
+The components without source code including the older IDE were provided free of charge by Excelsior.
  
-The 2.6 version of XDS comes included as the SDK with the release of the modern Java Eclipse based IDE.
-
+The 2.6 version of XDS comes included as the SDK with the release of the modern Java Eclipse based IDE; see above.
 
 The open source version of XDS compilers/debuggers/linkers/resource builder appear to be the 2.52 version.
 
-I think that modula-2 and oberon-2 are better languages than many that came before them; and better than many that came after them.
 
-Certainly they are simpler and more readable than many other computer languages.
 
 -------
 
-Excelsior went on from XDS to create the award winning Jet Java AOT compiler; which I have used a few times to compile Jars; earlier they created their own operating system for a Russian mini-computer system. 
+## History
+
+If you are interested in the history of computing in Europe.
+
+Excelsior went on from modula-2 and oberon-2 to create the award winning Jet Java AOT compiler.
+
+Jet was a compiler from Java Bytecode to executable code; I used the standard edition a few times to package java apps.
+
+The same team create the Excelsior operating system for an early (1980s) Russian mini-computer system designed to run modula-2; similar in concept to the Swiss Lilith; but 32bit and using Russian hardware technology; rather than American.
 
 http://www.kronos.ru
 
-
+ 
 
 
