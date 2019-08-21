@@ -39,6 +39,14 @@ flag - информация для генератора о способе представления типа.
 pos,end  - позиции в тексте описания типа.
 ext  - указатель на дополнительную информацию для back-end.
 
+
+obj is an object reference for a named type, otherwise NIL.
+mno - the module number in which the type is described.
+flag - information for the generator about the type representation method.
+pos, end - positions in the text of the type description.
+ext - a pointer to additional information for the back-end.
+
+
 Для ordinal типов (ty_shortint, ty_integer, ty_longint, ty_shortcard,
 ty_cardinal, ty_longcard, ty_boolean, ty_char, ty_enum):
 min  - минимальное значение
@@ -171,6 +179,11 @@ val  - указатель на константное значение.
 тип объекта (копируется из объекта). Все эти узлы - листы,
 т.е. не содержат ссылок на под-деревья.
 
+
+The obj field contains a reference to the corresponding object, the type field -
+type of object (copied from the object). All these nodes are sheets,
+those. do not contain references to sub-trees.
+
 nd_value   литерал или константа;
            для констант поле val копируется из объекта: val:=obj^.val
 nd_var     содержит ссылку на объект с видами ob_var, ob_varpar, ob_seq.
@@ -220,6 +233,13 @@ nd_label
 вызов  нормальной  (не  формальной)  процедуры  (call).  При этом
 n^.obj    содержит    ссылку    на   переменную   или   процедуру
 соответственно.
+
+
+If n ^ .l = NIL, then this is assignment to a variable (assign) or
+call a normal (not formal) procedure (call). Wherein
+n ^ .obj contains a reference to a variable or procedure
+respectively.
+
 			 obj
 i:=j;           assign  ----> i
                /      \
@@ -236,6 +256,10 @@ i^:=j;          assign
 
 Вспомогательный узел node используется при недостатке ссылок,
 а вспомогательный узел pair способен хранить два числа.
+
+
+The helper node is used when there are not enough links,
+and the auxiliary node pair is capable of storing two numbers.
 
 2.2.1. FOR
 			 for
@@ -289,6 +313,9 @@ case^.r^.next - пара содержащая значения минимальной
 
 При вызове метода левая ссылка указывает на узел вида method,
 а его левая ссылка на собственно обозначение.
+
+When calling a method, the left link points to a node of the form method,
+and its left link to the designation itself.
 
 	  call
 	 /

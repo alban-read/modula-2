@@ -17,6 +17,16 @@ IMPORT BurgNT;
 -- один из которых только что загружен из памяти, будет генерироваться
 -- сложение (на одну команду дольше - та самая неучтенная пересылка)
 --
+-- The rules of the form reg: reg + mem always take into account the cost of shipping
+-- even if the left reg = right reg and in fact there will be no forwarding
+-- Due to this, register addition is always done using LEA
+-- and therefore semantics already deal with this and substitute LEA instead
+-- ADD, INC or DEC; if you do differently and ignore this cost,
+-- that will be bad in the way of addressing - instead of addressing in two registers,
+-- one of which has just been loaded from memory will be generated
+-- addition (one command longer - the same unaccounted forwarding)
+
+
 -- Хвосты:
 -- 1) ПРОСЛЕДИТЬ, ЧТО В АДРЕСЕ - НЕ БОЛЕЕ ОДНОГО esp
 --    (проявляется только в SYSTEM.VAL (LONGINT, SYSTEM.ADR (a)) +
