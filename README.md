@@ -88,6 +88,15 @@ Excelsior recently (in 2019) open sourced their famous modula-2 and oberon-2 XDS
 
 The XDS compilers have been available as binary packages free of charge for a number of years.
 
+And earlier binary archives from the Excelsior site back in the day.
+
+The components in here with source code are open sourced by Exelsior (see links above.)
+
+The components without source code including the older IDE were provided free of charge by Excelsior.
+ 
+A 2.6 binary version of XDS comes included as the SDK with the release of the modern Java Eclipse based IDE; see above.
+
+The open source release of XDS compilers/debuggers/linkers/resource builder appear to be the 2.51 or 2.52 version.
 
 ----
 
@@ -97,15 +106,10 @@ These artefacts here were picked up from:-
 
 * https://github.com/excelsior-oss/xds-ide
 
-And earlier binary archives from the Excelsior site back in the day.
 
-The components in here with source code are open sourced by Exelsior (see links above.)
+Picture of The very nice modern open source IDE by Excelsior (2016.)
 
-The components without source code including the older IDE were provided free of charge by Excelsior.
- 
-A 2.6 binary version of XDS comes included as the SDK with the release of the modern Java Eclipse based IDE; see above.
-
-The open source release of XDS compilers/debuggers/linkers/resource builder appear to be the 2.52 version.
+![Selfie](assets/selfie2.png)
 
 
 
