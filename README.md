@@ -15,6 +15,11 @@ I plan to use them for some projects; and will track any changes here.
 If you like compilers XDS is an interesting framework: http://oberon2005.oberoncore.ru/paper/vm1999.pdf
 
 
+The (not open source classic IDE)
+
+![Selfie](assets/xds.png)
+
+
 ----
 ## Compatability
 
