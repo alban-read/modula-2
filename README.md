@@ -45,15 +45,13 @@ These are optimizing compilers
 
 In XDS the strings are not unicode; which helps explain some very small exe sizes.
 
-The native compiler generates 32bit code; (for 386; 486; pentium or pentium-pro); the ansi C compiler; compiles to C and uses a system C compiler to create the exe file.
+The native compiler generates 32bit code; (for 386; 486; pentium or pentium-pro); the ansi C compiler; compiles to C and uses the systems C compiler to create the exe file.
 
 Low and controlled memory usage: these are originally from the 1990s an era when powerful PC workstations had 16Mb of RAM. 
 
 I suspect on 64bit Windows 10; you might be able to get as much as 4GB ram per 32bit process; if you update the exe.
 
 e.g. to set the large address mode:- editbin /largeaddressaware my.exe 
-
-You may also need update the heap limit parameters set to a max of 1128MB in the runtime objects.
 
 
 XDS uses the intel floating point unit; not later SSE instructions etc.
