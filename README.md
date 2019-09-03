@@ -20,11 +20,20 @@ XDS compiles and run on the latest versions of Windows 10.
 
 Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windows x86 10.0.17763.0 SDK.
 
-# Intstallation Clone repo and Unpack the XDS ZIP.
+# Installation 
+
+Clone repo and Unpack the XDS ZIP.
+
 Unzip the XDS ZIP to the XDS folder.
 
-# How to Compile these - see wiki 
+# Other Requirements
 
+You need NASM (in S:\NASM) or change config files.
+
+You need MSVC 2015 or 2017. 
+
+
+# How to Compile these - see wiki 
 
 https://github.com/alban-read/modula-2/wiki
 
