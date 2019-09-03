@@ -1,0 +1,51 @@
+M	= tmp.mkf
+XDSDIR	= S:\projects\xds\XDS\bin\..
+INCL	= $(XDSDIR)\include
+XDSLIB	= S:\projects\xds\XDS\lib\C\libxds.lib
+
+TSLIB	=
+
+TARGET	= turbine.exe
+
+CDEFS	= /DX2C_alt_offs
+CF	= /c /nologo /w /J /Zp1 /I"$(INCL)"
+GENDLL	= 
+CC	= @cl
+
+# ------------------ objects enumeration ------------------
+#                    -------------------
+
+OBJ	= \
+	Turbine.obj
+
+# ------------------- target make rules -------------------
+#                     -----------------
+
+$(TARGET) : $(OBJ) "$(XDSLIB)"
+	@link.exe @<<
+/nologo
+/release
+/incremental:no
+/subsystem:windows
+/machine:I386
+/stack:100000
+/out:"$(TARGET)"
+$(OBJ)
+"$(XDSLIB)"
+WINMM.LIB
+USER32.lib
+KERNEL32.lib
+GDI32.lib
+COMDLG32.lib
+"Turbine.res"
+<<
+
+# ----------------- Dependency information ----------------
+#                   ----------------------
+
+Turbine.obj              : $(M) Turbine.c
+	$(CC) $(CDEFS) $(CF) $(GENDLL) /FoTurbine.obj /TcTurbine.c
+
+
+# end of makefile
+

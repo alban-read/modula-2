@@ -10,7 +10,7 @@
 <*-CHECKRANGE *>
 <*-CHECKNIL *>
 <*-GENDEBUG *>
-<*+DOREORDER *>
+
 
 MODULE MandSet;
 
@@ -659,7 +659,7 @@ BEGIN
       Windows.MB_ICONHAND);
     HALT(1);
   END;
-  WHILE Windows.GetMessage(msg, NIL, 0, 0)DO
+  WHILE Windows.GetMessage(msg, NIL, 0, 0) DO
     Windows.TranslateMessage(msg);
     Windows.DispatchMessage(msg);
   END;

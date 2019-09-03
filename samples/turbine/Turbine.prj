@@ -1,0 +1,7 @@
+% XDS project file
+-COMPILERHEAP = 12000000
+-GUI+
+-CC = MSVC
+!module Turbine.mod
+!module Turbine.res
+

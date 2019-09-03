@@ -1,48 +1,50 @@
 M	= tmp.mkf
-XDSDIR	= S:\projects\xds-ide\sdks\XDS-x86\bin\..
-INCL	= $(XDSDIR)\include\C
-XDSLIB	= S:\projects\xds-ide\sdks\XDS-x86\lib\C\libxds.lib
+XDSDIR	= S:\projects\modula-2\XDS\bin\..
+INCL	= $(XDSDIR)\include
+XDSLIB	= S:\projects\modula-2\XDS\lib\C\libxds.lib
 
-TSLIB	= S:\projects\xds-ide\sdks\XDS-x86\lib\C\libts.lib
+TSLIB	=
 
-TARGET	= Generic.exe
+TARGET	= generic.exe
 
-CDEFS	=
-CF	= -s -d2 -mf -3s -fp3 -ze -zm -zq -omiler -s -fpi87 -I"$(INCL)"
-CC	= @wcc386
+CDEFS	= /DX2C_alt_offs
+CF	= /c /nologo /w /J /Zp1 /I"$(INCL)"
+GENDLL	= 
+CC	= @cl
 
 # ------------------ objects enumeration ------------------
 #                    -------------------
 
-OBJ	=
-OBJ = $+$(OBJ)$- Generic.obj
+OBJ	= \
+	Generic.obj
 
 # ------------------- target make rules -------------------
 #                     -----------------
 
 $(TARGET) : $(OBJ) "$(XDSLIB)"
-	@if exist xds.lnk @del xds.lnk
-	@%append xds.lnk sys nt
-	@%append xds.lnk op case
-	@%append xds.lnk op stack=100000
-	@%append xds.lnk runtime windows
-	@%append xds.lnk lib kernel32.lib
-	@%append xds.lnk lib user32.lib
-	@%append xds.lnk lib gdi32.lib
-	@%append xds.lnk lib comdlg32.lib
-	@%append xds.lnk file Generic.obj
-	@%append xds.lnk name '$(TARGET)'
-	@%append xds.lnk lib '$(XDSLIB)'
-	@%append xds.lnk lib '$(TSLIB)'
-	@wlink @xds.lnk
-	@wrc Generic.res $(TARGET)
+	@link.exe @<<
+/nologo
+/release
+/incremental:no
+/subsystem:windows
+/machine:I386
+/stack:100000
+/out:"$(TARGET)"
+$(OBJ)
+"$(XDSLIB)"
+WINMM.LIB
+USER32.lib
+KERNEL32.lib
+GDI32.lib
+COMDLG32.lib
+"Generic.res"
+<<
 
 # ----------------- Dependency information ----------------
 #                   ----------------------
 
 Generic.obj              : $(M) Generic.c
-	@echo $*
-	$(CC) $(CDEFS) $(CF) -foGeneric.obj Generic.c
+	$(CC) $(CDEFS) $(CF) $(GENDLL) /FoGeneric.obj /TcGeneric.c
 
 
 # end of makefile

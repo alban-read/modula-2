@@ -1,0 +1,5 @@
+% XDS project file
+-CC=MSVC
+-HEAPLIMIT=0
+-GUI+
+!module MandSet.mod

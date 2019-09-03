@@ -1,0 +1,5 @@
+S:\projects\modula-2\samples\TestMemory\testmemoryusage.exe 
+#RTS: unhandled exception #17: out of heap space
+0000953A  00000000  S:\projects\modula-2\samples\TestMemory\testmemoryusage.exe
+00000071  00000000  S:\projects\modula-2\samples\TestMemory\testmemoryusage.exe
+000000FA  00000000  S:\projects\modula-2\samples\TestMemory\testmemoryusage.exe

@@ -85,10 +85,10 @@
 !end
 
 
--gcthreshold =  256000000
--heaplimit = 256000000
+-gcthreshold =  96000000
+-heaplimit = 96000000
 
--compilerheap = 32777216
+-compilerheap = 16777216
 
 
 % Runtime checks and debug settings

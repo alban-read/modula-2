@@ -206,12 +206,11 @@
 
               
 !if env_target = "x86nt" then
- -gcthreshold =  1050000000
- -heaplimit = 1050000000
- -compilerheap = 64777216
-!else
   -gcthreshold = 512000000 
   -heaplimit   = 512000000
+!else
+  -gcthreshold = 128000000 
+  -heaplimit   = 128000000
 !end
 
 -stacklimit=10000000

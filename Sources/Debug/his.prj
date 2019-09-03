@@ -41,10 +41,10 @@
 
 -SCHERN_K26:-
 
--gcthreshold =  128000000
--heaplimit = 128000000
+-gcthreshold =  96000000
+-heaplimit = 96000000
 
--compilerheap = 32777216
+-compilerheap = 16777216
 
 
 % ======================================================

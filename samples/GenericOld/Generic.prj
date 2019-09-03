@@ -1,0 +1,7 @@
+% XDS project file
+-HEAPLIMIT = 51200000
+-GUI+
+ 
+!module Generic.mod
+!module Generic.res
+ 

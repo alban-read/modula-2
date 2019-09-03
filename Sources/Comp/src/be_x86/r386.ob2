@@ -99,8 +99,8 @@ TYPE
 
 VAR
     MustFillFrame*: BOOLEAN;
-    UsedByCalled*:RegSet;   -- Какие регистры используются What registers are used
-                            -- вызываемыми процедурами  invoked procedures
+    UsedByCalled*:RegSet;   -- Какие регистры используются
+                            -- вызываемыми процедурами
     NeverUsePushInCall* : BOOLEAN; -- inited in Iselect_I.generate
 
     SavedRegisters: RegSet; -- Saved at prologue/restored at epilogue registers

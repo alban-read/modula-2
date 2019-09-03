@@ -31,7 +31,7 @@ BEGIN
   Windows.GetVersionEx (verInfo);
   CASE verInfo.dwPlatformId OF
   |Windows.VER_PLATFORM_WIN32_WINDOWS: HeapLimit := 20000000H;  (* 512 Mb *)
-  |Windows.VER_PLATFORM_WIN32_NT:      HeapLimit := (1*1024 + 512)*1024*1024;  -- 1Gb + 512Mb
+  |Windows.VER_PLATFORM_WIN32_NT:      HeapLimit := (1*1024 + 128)*1024*1024;  -- 1Gb + 128Mb
   ELSE
     HeapLimit := 20000000H;  (* 512 Mb *)
   END;

@@ -392,7 +392,7 @@
 -def:+
 -nofloat:-
 -exceptions:+
--compilerheap=99000000
+-compilerheap=36000000
 
 -gencstringsalways:+
 

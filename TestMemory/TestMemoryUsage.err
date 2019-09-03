@@ -1,0 +1,21 @@
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(83): Error! E1009: Expecting ',' but found '('
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(83): Error! E1026: Invalid declarator
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(83): Error! E1009: Expecting ',' but found ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1026: Invalid declarator
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1009: Expecting ',' but found 'typedef'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1026: Invalid declarator
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1009: Expecting ',' but found 'unsigned'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1026: Invalid declarator
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1009: Expecting ',' but found 'int'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(184): Error! E1024: Declared symbol 'size_t' is not in parameter list
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(185): Error! E1023: Storage class of parameter must be register or unspecified
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(185): Error! E1024: Declared symbol 'ptrdiff_t' is not in parameter list
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(186): Error! E1023: Storage class of parameter must be register or unspecified
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(186): Error! E1024: Declared symbol 'intptr_t' is not in parameter list
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(196): Error! E1023: Storage class of parameter must be register or unspecified
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(196): Error! E1022: Missing or misspelled data type near '_Bool'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(196): Error! E1024: Declared symbol '__vcrt_bool' is not in parameter list
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(215): Error! E1023: Storage class of parameter must be register or unspecified
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(215): Error! E1024: Declared symbol 'wchar_t' is not in parameter list
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(277): Error! E1024: Declared symbol '__security_init_cookie' is not in parameter list
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include\vcruntime.h(280): Error! E1147: Too many errors: compilation aborted

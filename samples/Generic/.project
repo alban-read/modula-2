@@ -26,55 +26,70 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects</name>
+			<name>.mnt/S/xds-ide</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide</name>
+			<name>.mnt/S/xds-ide/sdks</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks</name>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86</name>
+			<name>.mnt/S/projects/modula-2/XDS/bin</name>
+			<type>2</type>
+			<location>S:/projects/modula-2/XDS/bin</location>
+		</link>
+		<link>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/bin</name>
+			<type>2</type>
+			<location>S:/xds-ide/sdks/XDS-x86/bin</location>
+		</link>
+		<link>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/def</name>
+			<type>2</type>
+			<location>S:/xds-ide/sdks/XDS-x86/def</location>
+		</link>
+		<link>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/lib</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/bin</name>
-			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/bin</location>
-		</link>
-		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/lib</name>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/sym</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/sym</name>
+			<name>.mnt/S/projects/modula-2/XDS/lib/C</name>
 			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
+			<location>S:/projects/modula-2/XDS/lib/C</location>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/lib/c</name>
+			<name>.mnt/S/projects/modula-2/XDS/sym/C</name>
 			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/lib/c</location>
+			<location>S:/projects/modula-2/XDS/sym/C</location>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/sym/c</name>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/lib/x86</name>
 			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/sym/c</location>
+			<location>S:/xds-ide/sdks/XDS-x86/lib/x86</location>
+		</link>
+		<link>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/sym/x86</name>
+			<type>2</type>
+			<location>S:/xds-ide/sdks/XDS-x86/sym/x86</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1566025517875</id>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/bin</name>
+			<id>1566839353409</id>
+			<name>.mnt/S/projects/modula-2/XDS/bin</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
@@ -82,8 +97,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1566026495575</id>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/lib/c</name>
+			<id>1566821937339</id>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/bin</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
@@ -91,8 +106,35 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1566026495606</id>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/sym/c</name>
+			<id>1566839353492</id>
+			<name>.mnt/S/projects/modula-2/XDS/lib/C</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1566839353523</id>
+			<name>.mnt/S/projects/modula-2/XDS/sym/C</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1566821937370</id>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/lib/x86</name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1566821937417</id>
+			<name>.mnt/S/xds-ide/sdks/XDS-x86/sym/x86</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>

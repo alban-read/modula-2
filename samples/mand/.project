@@ -31,55 +31,45 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide</name>
+			<name>.mnt/S/projects/modula-2</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks</name>
+			<name>.mnt/S/projects/modula-2/XDS</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86</name>
+			<name>.mnt/S/projects/modula-2/XDS/bin</name>
+			<type>2</type>
+			<location>S:/projects/modula-2/XDS/bin</location>
+		</link>
+		<link>
+			<name>.mnt/S/projects/modula-2/XDS/lib</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/bin</name>
-			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/bin</location>
-		</link>
-		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/def</name>
-			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/def</location>
-		</link>
-		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/lib</name>
+			<name>.mnt/S/projects/modula-2/XDS/sym</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/sym</name>
+			<name>.mnt/S/projects/modula-2/XDS/lib/C</name>
 			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
+			<location>S:/projects/modula-2/XDS/lib/C</location>
 		</link>
 		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/lib/x86</name>
+			<name>.mnt/S/projects/modula-2/XDS/sym/C</name>
 			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/lib/x86</location>
-		</link>
-		<link>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/sym/x86</name>
-			<type>2</type>
-			<location>S:/projects/xds-ide/sdks/XDS-x86/sym/x86</location>
+			<location>S:/projects/modula-2/XDS/sym/C</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1566116571363</id>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/bin</name>
+			<id>1566674607966</id>
+			<name>.mnt/S/projects/modula-2/XDS/bin</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
@@ -87,8 +77,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1566116571387</id>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/lib/x86</name>
+			<id>1566674607991</id>
+			<name>.mnt/S/projects/modula-2/XDS/lib/C</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
@@ -96,8 +86,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1566116571414</id>
-			<name>.mnt/S/projects/xds-ide/sdks/XDS-x86/sym/x86</name>
+			<id>1566674608016</id>
+			<name>.mnt/S/projects/modula-2/XDS/sym/C</name>
 			<type>10</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>

@@ -1,0 +1,7 @@
+% XDS project file
+-COMPILERHEAP = 12000000
+-GUI+
+-CC = None
+-MINCPU = PentiumPro
+!module Turbine.mod
+

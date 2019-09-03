@@ -10,8 +10,8 @@ BEGIN
     BEGIN
 	MENUITEM "&New",                        IDM_NEW, GRAYED
 	MENUITEM "&Open...",                    IDM_OPEN, GRAYED
-	MENUITEM "&Save",                       IDM_SAVE, GRAYED
-	MENUITEM "Save &As...",                 IDM_SAVEAS, GRAYED
+	MENUITEM "&Save",                       IDM_SAVE  
+	MENUITEM "Save &As...",                 IDM_SAVEAS  
 	MENUITEM SEPARATOR
 	MENUITEM "&Print...",                   IDM_PRINT, GRAYED
 	MENUITEM "P&rint Setup...",             IDM_PRINTSETUP, GRAYED

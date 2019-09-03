@@ -1,7 +1,6 @@
 % XDS project file
 -COMPILERHEAP = 12000000
 -GUI+
--CC = Watcom
--MINCPU = PentiumPro
+ 
 !module Generic.mod
 !module Generic.res

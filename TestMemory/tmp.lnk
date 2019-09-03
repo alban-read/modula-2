@@ -1,0 +1,9 @@
+/sys=C
+/debug
+/stack=50000000
+/name=testmemoryusage.exe
+TestMemoryUsage.obj
+S:\projects\xds\XDS\lib\x86\xstart.lib
+S:\projects\xds\XDS\lib\x86\libxds.lib
+S:\projects\xds\XDS\lib\x86\import32.lib
+

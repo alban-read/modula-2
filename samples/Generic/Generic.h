@@ -13,4 +13,10 @@
 #define IDM_LINK           204
 #define IDM_LINKS          205
 
+#define IDC_MAIN_STATUS    601
+#define IDC_MAIN_TOOL      602
+
 #define IDSTR_FILTER 1000
+
+
+
