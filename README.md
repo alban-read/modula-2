@@ -2,11 +2,12 @@
 
 These XDS compilers were created by Excelsior in Russia: XDS is Copyright 1991-2019 Excelsior, LLC.
 
-If you like the modula-2 and oberon-2 languages; these are useful tools.
+If you like the modula-2 and oberon-2 languages; these are useful tools and available now as open source.
 
 I think that modula-2 and oberon-2 are better languages than many that came before them; and better than many that came after them.
 
-They are simpler and more readable than many other popular computer languages; and the compilers support multithreading allowing more than one processor to be used; which seems essential now that every PC (and even phones) have several CPUs (2019.)
+These languages are simpler; consistent; strongly typed and more readable than many other popular computer languages.
+Also these compilers support multithreading allowing more than one processor to be used; essential now that every PC (and even phones) have several CPUs (2019.)
 
 I plan to use them for some projects; and will track any changes here.
 
@@ -108,15 +109,20 @@ The open source release of XDS compilers/debuggers/linkers/resource builder appe
 
 ## History
 
-If you are interested in the history of computing in Europe.
+If you are interested in the history of computing.
 
-Excelsior went on from modula-2 and oberon-2 to create the award winning Jet Java AOT compiler.
+N. With (Switzerland) created PASCAL; then MODULA-2 and OBERON; on conjuction with hardware and Operating Systems.
 
-Jet was a compiler from Java Bytecode to executable code; I used the standard edition a few times to package java apps.
+Excelsior (Russia) went on from MODULA-2 and oberon-2 to create the award winning Jet Java AOT compiler.
 
-The same team created the Excelsior operating system for an early (1980s) Russian mini-computer system designed to run modula-2; similar in concept to the Swiss Lilith; but 32bit and using Russian hardware technology; rather than American.
+Jet was a compiler from Java Bytecode to executable code; I used the standard edition a few times to package my java apps.
+
+The same team created the Excelsior operating system for an early (1980s) Russian mini-computer system designed to run modula-2; 
+
+similar in concept to the Swiss Lilith; but 32bit and using Russian hardware technology; rather than American.
 
 http://www.kronos.ru
+
 
 
 ---
