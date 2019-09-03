@@ -18,9 +18,13 @@ If you like compilers XDS is an interesting framework: http://oberon2005.oberonc
 
 XDS compiles and run on the latest versions of Windows 10.
 
-Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windows 8.1 SDK.
+Works with the MSVC compiler; either VS2015, or VS2017 when set to use the windows x86 10.0.17763.0 SDK.
+
+# Intstallation Clone repo and Unpack the XDS ZIP.
+Unzip the XDS ZIP to the XDS folder.
 
 # How to Compile these - see wiki 
+
 
 https://github.com/alban-read/modula-2/wiki
 
