@@ -109,7 +109,7 @@ These artefacts here were picked up from:-
 
 Picture of The very nice modern open source IDE by Excelsior (2016.)
 
-![Selfie](assets/selfie2.png)
+![Selfie](assets/selfie2.PNG)
 
 
 
