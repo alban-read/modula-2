@@ -6,7 +6,8 @@ If you like the modula-2 and oberon-2 languages; these are useful tools and avai
 
 I think that modula-2 and oberon-2 are better languages than many that came before them; and better than many that came after them.
 
-These languages are simpler; consistent; strongly typed and more readable than many other popular computer languages.
+These languages are small, simple, consistent; strongly typed and readable.
+
 Also these compilers support multithreading allowing more than one processor to be used; essential now that every PC (and even phones) have several CPUs (2019.)
 
 I plan to use them for some projects; and will track any changes here.
