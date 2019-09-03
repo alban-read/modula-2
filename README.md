@@ -17,7 +17,7 @@ If you like compilers XDS is an interesting framework: http://oberon2005.oberonc
 
 The (not open source classic IDE)
 
-![Selfie](assets/xds.png)
+![Selfie](assets/selfie.png)
 
 
 ----
